@@ -34,16 +34,11 @@ a{
     color: black;
     padding: 18px 36px;
 }
-.content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;
-}
+
 .images{
     overflow: hidden;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .rect1,.rect3{
@@ -67,4 +62,55 @@ a{
 
 .ellipse{
     margin-top: 150px;
+    text-align: center;
+}
+
+.main-content{
+    height: 1920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-h1{
+    margin-bottom: 50px;
+}
+p{
+    width: 365px;
+}
+p a{
+    color: blue;
+    margin: 0;
+}
+#margined{
+    margin-top: 20px;
+}
+.about-us{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    margin-bottom: 400px;
+    margin-right: 100px;
+}
+
+.services{
+    margin-top: 100px;
+    justify-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;    
+}
+.wrap{
+    display: flex;
+    margin-top: 170px;
+    flex-wrap: wrap;
+}
+.wrap div{
+    margin-right: 50px;
+}
+#services3{
+    margin-right: 0;
 }
